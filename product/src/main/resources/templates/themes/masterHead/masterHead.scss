@@ -1,0 +1,63 @@
+@import "../valo/valo.scss";
+
+@mixin masterHead{
+
+ @include valo;
+  
+  .masterhead{
+		background:#15204c;
+		height : 80px;
+    	}
+
+   .OAll{
+      	min-height: 673px;
+        max-height: -webkit-fill-available;
+        }
+
+   .v-menubar-menubar{
+             background:#15204c;
+   			 color:#fff ;
+   			 border: none !important;
+   			 box-shadow:none !important;
+   			 border-width:none !important;
+           }
+.v-menubar > .v-menubar-menuitem {
+    border-width: 0 0px 0 0 !important;
+           }
+
+  .masterhori{
+       margin : 25px 0px 0px 10px;
+     }
+     
+   .v-menubar-logbar {
+       color :#fff;
+       background :#44c7f5 !important;
+       border-radius: 300px;
+       border:none;
+       outline : none;
+   		}
+
+   .v-horizontallayout-masterhori .v-menubar-menuitem-selected {
+    background: #000 !important;
+    border-top: #000 !important;
+    outline: none !important;
+    box-shadow: none !important;
+    border-radius:300px !important;
+   }
+  .v-menubar-logbar .v-menubar-menuitem {
+       border-radius:300px !important;
+   }
+   .v-menubar:focus:after{
+   border-color: none !important;
+ box-shadow:none !important;
+ outline:none !important;
+ border-top:none !important;
+ border-right:none !important;
+ border-left:none !important;
+ }
+   
+   
+   
+
+}
+

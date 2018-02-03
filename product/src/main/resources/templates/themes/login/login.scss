@@ -1,0 +1,55 @@
+@import "../valo/valo.scss";
+
+@mixin login {
+  @include valo;
+  
+  .OColor{
+		background:#15204c;
+		min-height: 673px;
+     max-height: -webkit-fill-available;
+    	}
+
+.loginpanel {
+   margin-top:200px;
+   }
+   
+ .prdtcontent{
+     background-color: #44c7f5;
+     padding : 10px;
+	}		
+	
+.loginform{
+	padding: 0px 40px 0px 20px;
+   }		
+	
+.ContentLbl{
+    font-size : 14px;
+    color:#fff ;
+   }	
+  
+ .loginbtn{
+ 		border-radius : 15px !important;
+ 		border-color : #44c7f5 !important;
+ 		height : 30px !important;
+ 		font-size : 12px;
+ 		cursor : pointer !important;
+ 		margin : 10px 0px 0px 35px !important; 
+ 	} 
+  
+  .v-textfield-loginField{
+      border-bottom : 1px solid black;
+      border-radius:0px !important;
+      border-top:none !important;
+      border-right:none !important;
+      border-left:none !important;
+  	}
+.v-textfield-loginField:focus {
+ border-color: none !important;
+ box-shadow:none !important;
+ outline:none !important;
+ border-top:none !important;
+ border-right:none !important;
+ border-left:none !important;
+ 
+ }
+  }
