@@ -29,10 +29,11 @@ public class LoginUI extends VerticalLayout implements View {
 		
 		VerticalLayout leftveri=new VerticalLayout();
 		
-		Label leftlbl=new Label("<br><br><center><b><i>PRODUCT<small><sup> TM</sup></small></i></center></b><br>"
-				+ "<em>Product is anything that can be offered<br> "
-				+ "to a market that might satisfy a want or need</em>");
+//		Label leftlbl=new Label("<br><br><center><b><i>PRODUCT<small><sup> TM</sup></small></i></center></b><br>"
+//				+ "<em>Product is anything that can be offered<br> "
+//				+ "to a market that might satisfy a want or need</em>");
 //		leftlbl.setContentMode(ContentMode.HTML);
+		Label leftlbl=new Label("PRODUCT");
 		leftveri.addComponent(leftlbl);
 		
 		leftlbl.setStyleName("ContentLbl");
