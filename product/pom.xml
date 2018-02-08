@@ -60,4 +60,22 @@
 	</build>
 
 
+<repositories>
+  <repository>
+    <id>helixteamhub.cloud</id>
+    <url>https://helixteamhub.cloud/ka/projects/product/repositories/maven/Spring</url>
+  </repository>
+</repositories>
+
+<distributionManagement>
+  <repository>
+    <id>helixteamhub.cloud</id>
+    <url>https://helixteamhub.cloud/ka/projects/product/repositories/maven/Spring</url>
+  </repository>
+  <snapshotRepository>
+    <id>helixteamhub.cloud</id>
+    <url>https://helixteamhub.cloud/ka/projects/product/repositories/maven/Spring</url>
+  </snapshotRepository>
+</distributionManagement>
+
 </project>

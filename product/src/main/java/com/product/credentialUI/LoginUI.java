@@ -5,6 +5,7 @@ package com.product.credentialUI;
 import com.vaadin.icons.VaadinIcons;
 import com.vaadin.navigator.View;
 import com.vaadin.navigator.ViewChangeListener.ViewChangeEvent;
+import com.vaadin.shared.ui.ContentMode;
 import com.vaadin.ui.Alignment;
 import com.vaadin.ui.Button;
 import com.vaadin.ui.FormLayout;
@@ -29,11 +30,9 @@ public class LoginUI extends VerticalLayout implements View {
 		
 		VerticalLayout leftveri=new VerticalLayout();
 		
-//		Label leftlbl=new Label("<br><br><center><b><i>PRODUCT<small><sup> TM</sup></small></i></center></b><br>"
-//				+ "<em>Product is anything that can be offered<br> "
-//				+ "to a market that might satisfy a want or need</em>");
-//		leftlbl.setContentMode(ContentMode.HTML);
-		Label leftlbl=new Label("PRODUCT");
+		Label leftlbl=new Label("<br><br><center><b><i>PRODUCT<small><sup> TM</sup></small></i></center></b><br>"
+				+ "<em>Product is anything that can be offered<br> "
+				+ "to a market that might satisfy a want or need</em>",ContentMode.HTML);
 		leftveri.addComponent(leftlbl);
 		
 		leftlbl.setStyleName("ContentLbl");
@@ -43,10 +42,12 @@ public class LoginUI extends VerticalLayout implements View {
 		FormLayout form=new FormLayout();
 		
 		TextField username=new TextField();
+		username.setPlaceholder("Username");
 //		username.setInputPrompt("Username");
 		username.setIcon(VaadinIcons.USER);
 		username.setStyleName("loginField");
 		PasswordField password=new PasswordField();
+		password.setPlaceholder("Password");
 //		password.setInputPrompt("Password");
 		password.setIcon(VaadinIcons.KEY);
 		password.setStyleName("loginField");
